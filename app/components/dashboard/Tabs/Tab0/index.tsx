@@ -43,9 +43,6 @@ export default function Tab0() {
                     alt=" "
                 />
 
-
-
-
             </div>
             <div className="md:absolute py-10 sm:py-20 md:pt-0 inset-0 z-10 flex justify-center items-center">
                 <div className="max-w-screen-wrap mx-auto relative px-4 w-full">
