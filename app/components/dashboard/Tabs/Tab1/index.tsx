@@ -33,7 +33,7 @@ export default function Tab2() {
                                 /><h2 className="text-center text-[#1E232C] text-4xl font-bold ">Accounts</h2>
 
                             </div>
-                            <p className="text-[#011D41]/70 text-center font-medium leading-relaxed text-lg">Upon registering, you will have the option to choose between 2 types of accounts, Personal and Business. Business accounts will require additional verification before being granted access to Apprecial’s platforms, while personal accounts will require standard ID verification through Driving Licences, Passports, Bank Statements, and similar.</p>
+                            <p className="text-[#011D41]/70 text-center font-medium leading-relaxed text-lg">Upon registering, you will have the option to choose between 2 types of accounts, Personal and Business. Business accounts will require additional verification before being granted access to Apprecial&apos;s platforms, while personal accounts will require standard ID verification through Driving Licences, Passports, Bank Statements, and similar.</p>
                         </div>
 
 
@@ -81,7 +81,7 @@ export default function Tab2() {
 
                                 <div className="space-y-4 pt-5">
                                     <h3 className="text-zinc-800 font-medium capitalize text-center text-3xl">Business</h3>
-                                    <p className="text-center text-[#1E232C] text-lg font-medium leading-relaxed">An account for legally registered businesses to access Apprecial’s services.</p>
+                                    <p className="text-center text-[#1E232C] text-lg font-medium leading-relaxed">An account for legally registered businesses to access Apprecial&apos;s services.</p>
                                 </div>
 
                                 <div className="p-5 bg-[#F7F9FE] rounded-3xl mt-10">
