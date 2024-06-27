@@ -1,8 +1,8 @@
 "use client"
-import bottomElips from '@/app/assets/dashboard/bottom-elips.svg'
-import dashboardMobile from '@/app/assets/dashboard/dashboard_screen_mobile_new_v2.svg'
-import dashboardScreen from '@/app/assets/dashboard/dashboard_screen-2.svg'
-import Image from 'next/image'
+import bottomElips from "@/app/assets/dashboard/bottom-elips.svg"
+import dashboardMobile from "@/app/assets/dashboard/dashboard_screen_mobile_new_v2.svg"
+import dashboardScreen from "@/app/assets/dashboard/dashboard_screen-2.svg"
+import Image from "next/image"
 export default function Tab0() {
     return (
         <>
@@ -48,7 +48,7 @@ export default function Tab0() {
 
             </div>
             <div className="md:absolute py-10 sm:py-20 md:pt-0 inset-0 z-10 flex justify-center items-center">
-                <div className='max-w-screen-wrap mx-auto relative px-4 w-full'>
+                <div className="max-w-screen-wrap mx-auto relative px-4 w-full">
                     <div className="md:w-1/2 md:max-w-md space-y-7">
                         <h2 className="text-zinc-800 text-4xl font-bold ">About The <span className="text-dbprimary">Dashboard</span></h2>
                         <p className="text-[#011D41]/70 font-medium leading-relaxed text-lg">Unlock the full potential of Apprecial’s mobile-based services with our intuitive and feature-rich dashboard. It allows you to stay in control by providing remote access so you can easily manage your subscriptions, track account activity, or connect with our support team, all from one convenient location.</p>

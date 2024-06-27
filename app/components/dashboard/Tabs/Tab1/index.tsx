@@ -1,7 +1,7 @@
 "use client"
-import { TbCheck } from 'react-icons/tb'
-import apprecialIcon from '@/app/assets/dashboard/apprecial-icon.svg'
-import Image from 'next/image'
+import { TbCheck } from "react-icons/tb"
+import apprecialIcon from "@/app/assets/dashboard/apprecial-icon.svg"
+import Image from "next/image"
 const personal = [
     "Access your account from different devices.", 
     "Enhanced security (Apprecial 3FA).", 
@@ -18,7 +18,7 @@ export default function Tab2() {
     return (
         <>
             <div className="relative py-10 ">
-                <div className='max-w-screen-wrap mx-auto relative px-4 w-full'>
+                <div className="max-w-screen-wrap mx-auto relative px-4 w-full">
                     <div className="space-y-10">
                         {/*Apprecial intro*/}
                         <div className="space-y-5 max-w-7xl mx-auto pt-10">

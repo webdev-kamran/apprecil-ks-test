@@ -1,8 +1,8 @@
 "use client"
-import { TbCheck } from 'react-icons/tb'
-import shareIcon from '@/app/assets/dashboard/icons-share-ideas.svg'
-import support from '@/app/assets/dashboard/support-bg.svg'
-import Image from 'next/image'
+import { TbCheck } from "react-icons/tb"
+import shareIcon from "@/app/assets/dashboard/icons-share-ideas.svg"
+import support from "@/app/assets/dashboard/support-bg.svg"
+import Image from "next/image"
 export default function Tab3() {
     return (
         <>
@@ -18,7 +18,7 @@ export default function Tab3() {
                     alt=" "
                 />
                 <div className="sm:absolute inset-0 flex items-center justify-center py-10  ">
-                    <div className='max-w-2xl mx-auto relative px-4 w-full sm:-mt-40'>
+                    <div className="max-w-2xl mx-auto relative px-4 w-full sm:-mt-40">
                         <div className="space-y-5">
                             <Image
                                 className="object-cover h-auto w-24 sm:w-auto mx-auto "

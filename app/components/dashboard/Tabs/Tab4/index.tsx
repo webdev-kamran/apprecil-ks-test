@@ -1,8 +1,8 @@
 "use client"
-import { TbCheck } from 'react-icons/tb'
-import Lottie from 'lottie-react';
-import Dashboard_take_control_LOTTIE from '../../icons/Dashboard_take_control_LOTTIE.json'
-import Dashboard_centralisation_animation from '../../icons/Dashboard_centralisation_animation.json'
+import { TbCheck } from "react-icons/tb"
+import Lottie from "lottie-react";
+import Dashboard_take_control_LOTTIE from "../../icons/Dashboard_take_control_LOTTIE.json"
+import Dashboard_centralisation_animation from "../../icons/Dashboard_centralisation_animation.json"
 const list = [
     "Up to 5 devices protected", "Up to 5 devices protected", "Up to 5 devices protected", "Up to 5 devices protected",
 ]
@@ -10,7 +10,7 @@ export default function Tab4() {
     return (
         <>
             <div className="relative py-10 md:py-28">
-                <div className='max-w-screen-wrap mx-auto relative px-4 w-full'>
+                <div className="max-w-screen-wrap mx-auto relative px-4 w-full">
                     <div className="space-y-10">
                         {/*Apprecial intro*/}
                         <div className="space-y-5 max-w-5xl mx-auto ">
@@ -32,7 +32,7 @@ export default function Tab4() {
                                                             preserveAspectRatio: "xMidYMid slice"
                                                         }
                                                     }
-                                                    className='max-w-md w-full  mx-auto -mb-10'
+                                                    className="max-w-md w-full  mx-auto -mb-10"
                                                 />
                                 </div>
                                 <div className="space-y-3 max-w-2xl text-center sm:text-left 2xl:pr-20">
@@ -54,7 +54,7 @@ export default function Tab4() {
                                                             preserveAspectRatio: "xMidYMid slice"
                                                         }
                                                     }
-                                                    className='max-w-md w-full  mx-auto -mb-10'
+                                                    className="max-w-md w-full  mx-auto -mb-10"
                                                 />
 
 
