@@ -51,7 +51,7 @@ export default function Tab0() {
                 <div className='max-w-screen-wrap mx-auto relative px-4 w-full'>
                     <div className="md:w-1/2 md:max-w-md space-y-7">
                         <h2 className="text-zinc-800 text-4xl font-bold ">About The <span className="text-dbprimary">Dashboard</span></h2>
-                        <p className="text-[#011D41]/70 font-medium leading-relaxed text-lg">Unlock the full potential of Apprecial&apos;s mobile-based services with our intuitive and feature-rich dashboard. It allows you to stay in control by providing remote access so you can easily manage your subscriptions, track account activity, or connect with our support team, all from one convenient location.</p>
+                        <p className="text-[#011D41]/70 font-medium leading-relaxed text-lg">Unlock the full potential of Apprecial’s mobile-based services with our intuitive and feature-rich dashboard. It allows you to stay in control by providing remote access so you can easily manage your subscriptions, track account activity, or connect with our support team, all from one convenient location.</p>
                     </div>
                 </div>
             </div>
