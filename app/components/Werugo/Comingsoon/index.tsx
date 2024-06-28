@@ -9,7 +9,7 @@ import logo from '@/app/assets/werugo/lotties/logo_animation.json'
 import bg from '@/app/assets/werugo/images/coming-soon-1.png'
 import Image from 'next/image';
 const Comingsoon = () => {
-  // Set your target date here, e.g., 24 hours from now
+// Set your target date here, e.g., 24 hours from now
   const targetDate = new Date(Date.now() + 26 * 24 * 60 * 60 * 1000);
 
   return (
@@ -38,8 +38,10 @@ const Comingsoon = () => {
               The most advanced, versatile device tracker application for Android and iOS devices.
             </p>
           </div>
+ 
           <CountdownTimer targetDate={targetDate} />
           <Form   />
+ 
           {/* <div className='pt-5 space-y-1 w-full max-w-xl'>
             <label className='text-left text-black font-medium'>
             Get notified when launched
