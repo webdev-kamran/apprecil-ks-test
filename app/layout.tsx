@@ -3,9 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import localFont from 'next/font/local'
 const inter = Inter({ subsets: ["latin"] });
-import '@/app/fonts/css/satoshi.css'
+ 
 import { ChakraProvider } from '@chakra-ui/react'
-const satoshi = localFont({ src: './fonts/Satoshi-Variable.woff2' })
+ 
 
 export const metadata: Metadata = {
   title: "Apprecial",
@@ -18,8 +18,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={satoshi.className}>
-      <body>
+    <html lang="en" className="font-sans" >
+      <head>
+      <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap"
+      rel="stylesheet"
+    />
+      </head>
+      <body className="font-sans">
         <div className="overflow-hidden">
           <ChakraProvider>
             {children}

@@ -108,8 +108,8 @@ export default function Navbar() {
           {nav.map((item: any, index: any) => (
 
 
-            <button key={index} onClick={() => scrollToSection(`${item.sectionId}`)} className={`cursor-pointer hover:text-asprimary font-medium border-b-2 hover:border-asprimary transition-all duration-75 ease-in-out  ${activeSection === `${item.sectionId}` ? 'border-asprimary text-asprimary' : 'border-transparent text-black'}`}>
-              <span className='relative z-10'>{item.name}</span>
+            <button key={index} onClick={() => scrollToSection(`${item.sectionId}`)} className={`cursor-pointer hover:text-asprimary border-b-2 hover:border-asprimary transition-all duration-75 ease-in-out  ${activeSection === `${item.sectionId}` ? 'border-asprimary text-asprimary' : 'border-transparent text-black'}`}>
+              <span className='relative z-10 font-medium text-lg'>{item.name}</span>
             </button>
 
           ))}

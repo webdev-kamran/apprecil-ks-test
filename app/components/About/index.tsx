@@ -20,7 +20,7 @@ export default function About() {
 
   return (
     <div className="mt-16 pt-16 xl:pt-28 pb-40 relative z-10" id="about">
-      <Image width={100} height={100}
+      <Image fill
         src={isDark ? about_linearbg_dark : about_linearbg}
         alt="about_bg"
         className="absolute top-0 left-0 w-full sm:h-full -z-10 pointer-events-none"
