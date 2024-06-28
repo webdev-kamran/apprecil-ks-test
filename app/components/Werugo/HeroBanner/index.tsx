@@ -11,7 +11,7 @@ export default function HeroBanner() {
   return (
     <div className="flex flex-col items-center gap-10 relative" id="home">
       <div className='w-full -z-10 absolute inset-0 flex justify-center items-center'>
-        <Image width={100} height={100}
+        <Image fill
           src={map_1}
           alt="map_1" className='w-auto lg:max-w-[350px] h-full object-cover  min-w-full' onContextMenu={(e) => {
             e.preventDefault(); // prevent the default behaviour when right clicked
