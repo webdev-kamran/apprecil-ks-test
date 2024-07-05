@@ -45,7 +45,10 @@ export default function Privacy() {
               ? 'text-white/70' : 'text-[#011D41]/50' } pt-3`}>
                         Any Apprecial product used to send and receive messages, calls, and video calls remains end-to-end encrypted; therefore, no third party, including Apprecial, shall have access to your data chats or video calls.
                     </p>
-
+                    <p className={`font-normal text-base   ${isDark
+              ? 'text-white/70' : 'text-[#011D41]/50' } pt-3`}>
+                       Certain applications developed by Apprecial, such as AudioShield, do not require users to create a company account and do not collect, store, or share any personal data. These applications operate solely on your device to provide their functionality. No data is transmitted to our servers or any third-party services. Your privacy is completely protected as no personal information is collected.
+                    </p>
                 </div>
                 <div className='space-y-1'>
                     <h4 className='text-xl font-medium'>Why Does Apprecial Collect Data?</h4>

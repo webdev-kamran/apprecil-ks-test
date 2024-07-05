@@ -143,7 +143,7 @@ export default function Footer() {
                     </Button>
                   </div>
                   <p className={`mt-1 text-left text-sm font-normal text-[#011d41]/70`}>
-                    Last Updated: November 26th, 2023
+                    Last Updated: July 4th, 2024
                   </p>
                   <div className="mt-4 flex flex-wrap justify-center gap-10">
                     <div className='justify-center gap-10 flex-wrap'>
@@ -189,7 +189,7 @@ export default function Footer() {
                     </Button>
                   </div>
                   <p className={`mt-1 text-left text-sm font-normal text-[#011d41]/70 `}>
-                    Effective: November 26th, 2023
+                    Effective: July 4th, 2024
                   </p>
                   <div className="mt-4 flex flex-wrap justify-center gap-10">
                     <div className='justify-center gap-10 flex-wrap'>
