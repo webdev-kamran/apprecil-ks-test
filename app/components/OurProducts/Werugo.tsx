@@ -1,7 +1,4 @@
 "use client"
-import manage_dashboard_dark from '@/app/assets/images/icons/Home/OurProducts/manage_dashboard_dark.png'
-import play_store_button from '@/app/assets/images/icons/Home/OurProducts/play_store_button.png'
-import apple_store_button from '@/app/assets/images/icons/Home/OurProducts/apple_store_button.png'
 import werugo_screen from '@/app/assets/images/backgrounds/Home/OurProducts/werugo_screen.svg'
 import werugo_screen_mobile from '@/app/assets/images/backgrounds/Home/OurProducts/werugo_screen_mobile_new.png'
 import werugo_icon from '@/app/assets/images/icons/Home/OurProducts/werugo_icon.png'
@@ -76,39 +73,32 @@ export default function Werugo() {
 
                 </div>
                 <div className="flex flex-wrap gap-4">
-                  <Image width={100} height={100}
-                    src={play_store_button}
-                    alt="play_store_button"
-                    className="w-40 xl:w-44 cursor-pointer"
-                    onContextMenu={(e) => {
-                      e.preventDefault(); // prevent the default behaviour when right clicked
-                      console.log("Right Click");
-                    }} draggable={false}
-                  />
-                  <Image width={100} height={100}
-                    src={apple_store_button}
-                    alt="apple_store_button"
-                    className="w-40 xl:w-44 cursor-pointer"
-                    onContextMenu={(e) => {
-                      e.preventDefault(); // prevent the default behaviour when right clicked
-                      console.log("Right Click");
-                    }} draggable={false}
-                  />
-                  <a
+
+                <Image src={'/google-play.svg'} alt="" width={179} height={52} onContextMenu={(e) => {
+                  e.preventDefault();  
+                  console.log("Right Click");
+                }} draggable="false" />
+                <Image src={'/app-store.svg'} alt="" width={179} height={52} onContextMenu={(e) => {
+                  e.preventDefault();  
+                  console.log("Right Click");
+                }} draggable="false" />
+
+
+                  <Link
                     href="https://dash.apprecial.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Image width={100} height={100}
-                      src={manage_dashboard_dark}
-                      alt="manage_dashboard"
-                      className="w-40 xl:w-44 cursor-pointer"
-                      onContextMenu={(e) => {
-                        e.preventDefault(); // prevent the default behaviour when right clicked
-                        console.log("Right Click");
-                      }} draggable={false}
-                    />
-                  </a>
+
+                    
+                <Image src={'/manage-dashboard-transparent.svg'} alt="" width={179} height={52} onContextMenu={(e) => {
+                  e.preventDefault();  
+                  console.log("Right Click");
+                }} draggable="false" />
+ 
+ 
+
+                  </Link>
                 </div>
               </div>
             </div>

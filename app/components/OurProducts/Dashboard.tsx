@@ -1,8 +1,5 @@
 "use client"
 import dashboard from '@/app/assets/images/icons/Home/dashboard.png'
-import learnmore_button from '@/app/assets/images/icons/Home/OurProducts/learnmore_button.png'
-import manage_dashboard from '@/app/assets/images/icons/Home/OurProducts/manage_dashboard.png'
-import manage_dashboard_dark from '@/app/assets/images/icons/Home/OurProducts/manage_dashboard_dark.png'
 import dashboard_screen from '@/app/assets/images/backgrounds/Home/OurProducts/dashboard_screen-4.svg'
 import dashboard_screen_mobile from '@/app/assets/images/backgrounds/Home/OurProducts/dashboard_screen_mobile_new_v5.svg'
 import { useColorModeValue } from '@chakra-ui/react'
@@ -23,7 +20,7 @@ export default function Dashboard() {
           <hr className="bg-[#BB6A37] pb-[3px] lg:pb-1 xl:pb-[5px] w-24 lg:w-28 xl:w-44 lg:mx-0 border-0 rounded-full mb-4 xl:mb-6" />
           <div className="mt-[450px] md:mt-5 xl:mt-16 flex flex-col gap-6  ">
             <div className="flex items-start gap-3">
-            <Image width={100} height={100}
+              <Image width={100} height={100}
                 src={dashboard}
                 alt="dashboard"
                 className="w-7 md:w-8 xl:w-9 mt-0.5 pointer-events-none"
@@ -54,21 +51,24 @@ export default function Dashboard() {
 
 
             </div>
-            <a
+            <Link
               href="https://dash.apprecial.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image width={100} height={100}
-                src={isDark ? manage_dashboard_dark : manage_dashboard}
-                alt="manage_dashboard"
-                className="w-40 xl:w-44 cursor-pointer z-50 "
-                onContextMenu={(e) => {
-                  e.preventDefault(); // prevent the default behaviour when right clicked
-                  console.log("Right Click");
-                }} draggable={false}
-              />
-            </a>
+
+
+
+              <Image src={'/manag-dashboard.svg'} alt="" width={185} height={55} onContextMenu={(e) => {
+                e.preventDefault();
+                console.log("Right Click");
+              }} draggable="false" />
+
+
+
+
+
+            </Link>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@ export default function Dashboard() {
           console.log("Right Click");
         }} draggable={false}
       />
-   <Image width={100} height={100}
+      <Image width={100} height={100}
         src={dashboard_screen_mobile}
         alt="dashboard_screen_mobile"
         className="h-auto w-auto lg:hidden mx-auto absolute right-0 top-40 sm:top-32 md:top-0 pointer-events-none z-30"
