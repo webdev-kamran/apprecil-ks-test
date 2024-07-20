@@ -13,7 +13,7 @@ function AudioShield() {
             <div className={` ${
                 isDark ? 'audioShield-dark' : 'audioShield'
             }`}>
-                <div className="w-10/12 md:w-11/12 lg:w-[80%] xl:w-full primary text-primary 2xl:w-3/4 mx-auto flex flex-col items-center" >
+                <div className="md:justify-between gap-20 w-10/12 md:w-11/12 lg:w-[85%] 2xl:w-3/4 mx-auto mx-auto flex flex-col items-center" >
 
                     <div className='md:grid md:grid-cols-2 flex flex-col-reverse gap-x-10 w-full items-center py-10'>
                         <div className='space-y-4 md:space-y-10'>
