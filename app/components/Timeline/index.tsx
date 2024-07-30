@@ -135,7 +135,7 @@ export default function Timeline() {
             borderColor={isDark ? 'border-[#1E2025]' : 'border-[#ffffff]'}
             isDark={isDark}
             title="Our First Mobile App"
-            description="AudioShield, our first mobile App for Android, is currently in the last phase of the development process and will be available for download in the upcoming weeks."
+            description="AudioShield, our first mobile app for Android, is now available. Enjoy enhanced audio control to prevent unexpected loud sounds from blasting out in any environment."
             tileColor="bg-[#6dc56a1a]"
             shadow={isDark ? 'card__shadow__dark' : 'card__shadow'}
           />
@@ -246,7 +246,7 @@ export default function Timeline() {
                 borderColor={isDark ? 'border-[#1E2025]' : 'border-[#ffffff]'}
                 isDark={isDark}
                 title="Our First Mobile App"
-                description="AudioShield, our first mobile App for Android, is currently in the last phase of the development process and will be available for download in the upcoming weeks."
+                description="AudioShield, our first mobile app for Android, is now available. Enjoy enhanced audio control to prevent unexpected loud sounds from blasting out in any environment."
                 tileColor="bg-[#6dc56a1a]"
                 shadow={isDark ? 'card__shadow__dark' : 'card__shadow'}
               />

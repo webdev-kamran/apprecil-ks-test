@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import AudioShieldIcon from '@/app/assets/images/icons/Home/AudioShield.svg'
-import AudioShieldGraphic from '@/app/assets/images/AudioShield-graphic.png'
+// import AudioShieldGraphic from '@/app/assets/images/AudioShield-graphic.png'
 import play_store_button from '@/app/assets/images/icons/Home/OurProducts/play_store_button_2.svg'
 import { useColorModeValue } from '@chakra-ui/react'
 import Image from 'next/image'
@@ -57,7 +57,7 @@ function AudioShield() {
                         </div>
                         <div className='flex justify-end'>
                         <Image width={500} height={500}
-                                src={AudioShieldGraphic}
+                                src={'/images/AudioShield-graphic.png'}
                                 alt="manage_dashboard"
                                 className="cursor-pointer w-auto h-auto"
                                 onContextMenu={(e) => {

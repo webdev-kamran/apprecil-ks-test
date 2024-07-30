@@ -1,10 +1,10 @@
 "use client"
 import brandLogo from '@/app/assets/images/logo/brand_logo.svg'
-import hamburger from '@/app/assets/images/icons/Home/Navbar/hamburger.png'
-import hamburgerDark from '@/app/assets/images/icons/Home/Navbar/hamburger_dark.png'
-import sunIcon from '@/app/assets/images/icons/Home/Navbar/sunIcon.png'
+// import hamburger from '/images/hamburger.png'
+// import hamburgerDark from '/images/hamburger_dark.png'
+// import sunIcon from '/images/sunIcon.png'
 import dashboard_button from '@/app/assets/images/icons/Home/Navbar/dashboard_button.svg'
-import moonIcon from '@/app/assets/images/icons/Home/Navbar/moonIcon.png'
+// import moonIcon from '/images/moonIcon.png'
 import { useState, useRef, useEffect } from 'react'
 import { Link } from "react-scroll";
 import Image from 'next/image' 
@@ -110,7 +110,7 @@ export default function Header() {
       <div className="text-primary flex items-center justify-between py-4 w-11/12 lg:w-[85%] 2xl:w-3/4 max-w-[1920px] mx-auto">
         <div className="lg:hidden">
           <Image width={100} height={100}
-            src={isDark ? hamburgerDark : hamburger}
+            src={isDark ? '/images/hamburger_dark.png' : '/images/hamburger.png'}
             alt="hamburger"
             className="cursor-pointer w-6 h-auto"
             onClick={() => toggleDrawer()}
@@ -196,7 +196,7 @@ export default function Header() {
           <div className="relative cursor-pointer w-16 flex justify-end">
             {isDark ? (
               <Image width={40} height={40}
-                src={moonIcon}
+                src={'/images/moonIcon.png'}
                 alt="moonIcon"
                 className="text-xl w-14 p-0.5 outline-2 h-auto"
                 onClick={toggleColorMode}
@@ -205,7 +205,7 @@ export default function Header() {
               <div onClick={toggleColorMode}>
                 <div className="bg-black rounded-full border border-black w-12 pt-2.5 py-3.5 mr-1.5" />
                 <Image width={40} height={40}
-                  src={sunIcon}
+                  src={'/images/sunIcon.png'}
                   alt="sunIcon"
                   className="text-xl outline w-[26px] h-[26px] p-[3px] outline-2 outline-black rounded-full absolute left-0 bottom-0 bg-white"
                 />

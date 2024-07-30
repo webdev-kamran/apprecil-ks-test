@@ -1,5 +1,5 @@
 "use client"
-import dashboard from '@/app/assets/images/icons/Home/dashboard.png'
+// import dashboard from '@/app/assets/images/icons/Home/dashboard.png'
 import dashboard_screen from '@/app/assets/images/backgrounds/Home/OurProducts/dashboard_screen-4.svg'
 import dashboard_screen_mobile from '@/app/assets/images/backgrounds/Home/OurProducts/dashboard_screen_mobile_new_v5.svg'
 import { useColorModeValue } from '@chakra-ui/react'
@@ -21,7 +21,7 @@ export default function Dashboard() {
           <div className="mt-[450px] md:mt-5 xl:mt-16 flex flex-col gap-6  ">
             <div className="flex items-start gap-3">
               <Image width={100} height={100}
-                src={dashboard}
+                src={'/images/dashboard.png'}
                 alt="dashboard"
                 className="w-7 md:w-8 xl:w-9 mt-0.5 pointer-events-none"
                 onContextMenu={(e) => {

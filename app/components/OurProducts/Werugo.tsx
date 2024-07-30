@@ -1,7 +1,7 @@
 "use client"
 import werugo_screen from '@/app/assets/images/backgrounds/Home/OurProducts/werugo_screen.svg'
 import werugo_screen_mobile from '@/app/assets/images/backgrounds/Home/OurProducts/werugo_screen_mobile_new.png'
-import werugo_icon from '@/app/assets/images/icons/Home/OurProducts/werugo_icon.png'
+// import werugo_icon from '@/app/assets/images/icons/Home/OurProducts/werugo_icon.png'
 import learnmore_button from '@/app/assets/images/icons/Home/OurProducts/learnmore_button.png'
 import { useColorModeValue } from '@chakra-ui/react'
 import Image from 'next/image'
@@ -43,7 +43,7 @@ export default function Werugo() {
             <div className="flex flex-col">
               <div className="flex items-end gap-3">
                 <Image width={100} height={100}
-                  src={werugo_icon}
+                  src={'/images/werugo_icon.png'}
                   alt="werugo_icon"
                   className="w-8 xl:w-14 pointer-events-none"
                   onContextMenu={(e) => {

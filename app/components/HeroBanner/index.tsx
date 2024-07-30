@@ -1,6 +1,6 @@
  "use client"
-import explore from '@/app/assets/images/icons/Home/HeroBanner/explore.png'
-import explore_dark from '@/app/assets/images/icons/Home/HeroBanner/explore_dark.png'
+// import explore from '/images/explore.png'
+// import explore_dark from '/images/explore_dark.png'
 // import bg_video_dark from '@/app/assets/videos/Home/HeroBanner/Apprecialweb_animation_Dark.gif'
 // import bg_video_light from '@/app/assets/videos/Home/HeroBanner/Apprecialweb_animation_Light.gif'
 import bg_video_dark from '@/app/assets/videos/Home/HeroBanner/Apprecialweb_animation_Dark.json'
@@ -69,7 +69,7 @@ export default function HeroBanner() {
         onClick={scrollToNextSection}
       >
         <Image width={100} height={100}
-          src={isDark ? explore_dark : explore}
+          src={isDark ? '/images/explore_dark.png' : '/images/explore.png'}
           alt="explore"
           className="w-8 md:w-10 lg:w-12 h-auto mx-auto"
           onContextMenu={(e) => {

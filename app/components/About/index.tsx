@@ -1,6 +1,5 @@
 "use client"
-import about_linearbg from '@/app/assets/images/backgrounds/Home/About/about_linearbg.png'
-import about_linearbg_dark from '@/app/assets/images/backgrounds/Home/About/about_linearbg_dark.png'
+ 
 import about_bg from '@/app/assets/images/backgrounds/Home/About/about_bg.svg'
 import about_bg_dark from '@/app/assets/images/backgrounds/Home/About/about_bg_dark.svg'
 import about_card1 from '@/app/assets/images/icons/Home/About/about_card1.svg'
@@ -21,7 +20,7 @@ export default function About() {
   return (
     <div className="mt-16 pt-16 xl:pt-28 pb-40 relative z-10" id="about">
       <Image fill
-        src={isDark ? about_linearbg_dark : about_linearbg}
+        src={isDark ? '/images/about_linearbg_dark.png' : '/images/about_linearbg.png'}
         alt="about_bg"
         className="absolute top-0 left-0 w-full sm:h-full -z-10 pointer-events-none"
       />
