@@ -44,7 +44,7 @@ const NotFound = () => {
         <Image width={100} height={100}
           src={errorText} draggable={false}
           alt="logo" 
-          className="max-w-[200px] lg:max-w-[350px] absolute right-6 bottom-11 w-full h-auto"
+          className="max-w-[150px] absolute right-6 bottom-11 w-full h-auto"
         />
       </div>
     </div>
