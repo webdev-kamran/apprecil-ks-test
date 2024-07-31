@@ -21,7 +21,7 @@ export default function Dashboard() {
           <div className="mt-[450px] md:mt-5 xl:mt-16 flex flex-col gap-6  ">
             <div className="flex items-start gap-3">
               <Image width={100} height={100}
-                src={'/images/dashboard.png'}
+                src={'/dashboard.png'}
                 alt="dashboard"
                 className="w-7 md:w-8 xl:w-9 mt-0.5 pointer-events-none"
                 onContextMenu={(e) => {

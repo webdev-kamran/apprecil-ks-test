@@ -20,7 +20,7 @@ export default function About() {
   return (
     <div className="mt-16 pt-16 xl:pt-28 pb-40 relative z-10" id="about">
       <Image fill
-        src={isDark ? '/images/about_linearbg_dark.png' : '/images/about_linearbg.png'}
+        src={isDark ? '/about_linearbg_dark.png' : '/about_linearbg.png'}
         alt="about_bg"
         className="absolute top-0 left-0 w-full sm:h-full -z-10 pointer-events-none"
       />

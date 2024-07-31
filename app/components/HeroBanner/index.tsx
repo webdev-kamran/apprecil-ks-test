@@ -69,7 +69,7 @@ export default function HeroBanner() {
         onClick={scrollToNextSection}
       >
         <Image width={100} height={100}
-          src={isDark ? '/images/explore_dark.png' : '/images/explore.png'}
+          src={isDark ? '/explore_dark.png' : '/explore.png'}
           alt="explore"
           className="w-8 md:w-10 lg:w-12 h-auto mx-auto"
           onContextMenu={(e) => {

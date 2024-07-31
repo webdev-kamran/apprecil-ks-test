@@ -57,7 +57,7 @@ function AudioShield() {
                         </div>
                         <div className='flex justify-end'>
                         <Image width={500} height={500}
-                                src={'/images/AudioShield-graphic.png'}
+                                src={'/AudioShield-graphic.png'}
                                 alt="manage_dashboard"
                                 className="cursor-pointer w-auto h-auto"
                                 onContextMenu={(e) => {

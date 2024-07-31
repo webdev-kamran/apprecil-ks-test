@@ -110,7 +110,7 @@ export default function Header() {
       <div className="text-primary flex items-center justify-between py-4 w-11/12 lg:w-[85%] 2xl:w-3/4 max-w-[1920px] mx-auto">
         <div className="lg:hidden">
           <Image width={100} height={100}
-            src={isDark ? '/images/hamburger_dark.png' : '/images/hamburger.png'}
+            src={isDark ? '/hamburger_dark.png' : '/hamburger.png'}
             alt="hamburger"
             className="cursor-pointer w-6 h-auto"
             onClick={() => toggleDrawer()}
@@ -196,7 +196,7 @@ export default function Header() {
           <div className="relative cursor-pointer w-16 flex justify-end">
             {isDark ? (
               <Image width={40} height={40}
-                src={'/images/moonIcon.png'}
+                src={'/moonIcon.png'}
                 alt="moonIcon"
                 className="text-xl w-14 p-0.5 outline-2 h-auto"
                 onClick={toggleColorMode}
@@ -205,7 +205,7 @@ export default function Header() {
               <div onClick={toggleColorMode}>
                 <div className="bg-black rounded-full border border-black w-12 pt-2.5 py-3.5 mr-1.5" />
                 <Image width={40} height={40}
-                  src={'/images/sunIcon.png'}
+                  src={'/sunIcon.png'}
                   alt="sunIcon"
                   className="text-xl outline w-[26px] h-[26px] p-[3px] outline-2 outline-black rounded-full absolute left-0 bottom-0 bg-white"
                 />

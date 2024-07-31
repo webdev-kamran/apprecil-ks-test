@@ -43,7 +43,7 @@ export default function Werugo() {
             <div className="flex flex-col">
               <div className="flex items-end gap-3">
                 <Image width={100} height={100}
-                  src={'/images/werugo_icon.png'}
+                  src={'/werugo_icon.png'}
                   alt="werugo_icon"
                   className="w-8 xl:w-14 pointer-events-none"
                   onContextMenu={(e) => {
